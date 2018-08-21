@@ -1,0 +1,41 @@
+{>"layouts/manage" /}
+
+{<body}
+
+
+
+        <div class="row">
+          <div class="large-12 columns">
+            <h2>Update Category</h2>
+
+            <form action="/manage/categories/edit/{category._id}" method="post">
+        
+                <div class="row">
+                   <div class="lagre-12 columns" >
+                        <label>Name
+                            <input type="text" name="name" value="{category.name}"  />
+                          </label>
+                    </div>
+                </div>
+
+
+               
+            
+
+                <div class="row">
+                        <div class="lagre-12 columns" >
+                             
+                                 <input type="submit" class="button" value="Submit" />
+                               </label>
+                         </div>
+                     </div>
+        <input type="hidden" value="{_csrf}" name="_csrf" />
+            
+            </form>    
+</div>
+</div>
+
+
+              
+
+{/body}

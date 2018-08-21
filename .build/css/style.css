@@ -1,0 +1,44 @@
+.top-bar{
+    margin-bottom: 20px;
+}
+
+ul{
+    list-style: none;
+    margin: 0
+}
+
+footer{
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+.book{
+    text-align: center;
+}
+
+.book h4{
+    margin: 5px;
+}
+
+.price{
+    margin: 5px;
+    font-size: 18px;
+}
+
+.price span
+{
+    color: blueviolet;
+    background: antiquewhite;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50%; 
+}
+
+.column + .column:last-child, .columns + .column:last-child, .column + .columns:last-child, .columns + .columns:last-child{
+    float: left;
+}
+
+h2 span{
+    font-size: 20px;
+}

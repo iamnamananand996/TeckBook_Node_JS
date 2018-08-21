@@ -1,0 +1,17 @@
+{>"layouts/master" /}
+
+{<body}
+
+    {#books}
+    <div class="large-3 columns book" >
+            <img src="/img/{.cover}" height="300px" width="200px" >
+            <h4>{.title}</h4>
+            <p>{.turncText}</p>
+            <div class="price">Buy is for <span>${.price}</span></div>
+            <br>
+            <a href="/books/details/{._id}" class="button small">Book Details</a>
+        </div>
+    {/books}
+    
+{/body}
+
